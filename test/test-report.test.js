@@ -3,7 +3,7 @@ import { validarResultadosDosTestes } from '../src/test-report.js';
 
 describe('Validação dos Resultados de Teste', () => {
 
-    describe('Validações negativas', () => {
+    context('Validações negativas', () => {
 
         it('75% deve retornar o Status de Perigo', () => {
             // Arrange - Organiza
@@ -33,7 +33,7 @@ describe('Validação dos Resultados de Teste', () => {
 
     });
 
-    describe('Validações positivas', () => {
+    context('Validações positivas', () => {
 
         it('0% deve retornar o Aceitável', () => {
             // Arrange - Organiza
