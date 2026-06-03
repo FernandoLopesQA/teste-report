@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx mocha test/**/*.js",
+    "test-report": "npx mocha test/**/*.js --reporter mochawesome"
   },
   "keywords": [],
   "author": "",
